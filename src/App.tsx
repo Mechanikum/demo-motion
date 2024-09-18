@@ -75,7 +75,11 @@ function App() {
                     style={imageFrame}
                     className={"overflow-hidden relative"}
                 >
-                    <motion.img style={{rotate: imageCounterRotate}} className={"absolute top-1/2 left-1/2 [translate:-50%_-50%] w-screen h-auto max-w-none"} src={"/00003-2631332107-1.png"}/>
+                    <motion.img
+                        style={{rotate: imageCounterRotate}}
+                        className={"absolute top-1/2 left-1/2 [translate:-50%_-50%] w-screen h-auto max-w-none"}
+                        src={"/image.webp"}
+                    />
                 </motion.div>
             </div>
             <div className={"fixed z-[-1] w-screen h-screen flex items-center justify-center"}>
@@ -93,8 +97,8 @@ function App() {
                         muted={true}
                     >
                         <source
-                            src="/Result.mp4"
-                            type="video/mp4"
+                            src="/video.webm"
+                            type="video/webm"
                         />
                     </motion.video>
                 </motion.div>

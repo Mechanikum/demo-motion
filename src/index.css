@@ -35,6 +35,7 @@
 
 
 :root {
+  scroll-behavior: smooth;
   --scrollbar-color-thumb: rgba(120,120,120, 0.33);
   --scrollbar-color-track: rgba(120,120,120, 0.15);
   --scrollbar-width: thin;
